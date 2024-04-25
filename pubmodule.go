@@ -1,7 +1,7 @@
 package pubmodule
 
-func Hello() string {
-	return "Hello, You!"
+func Hello(name string) string {
+	return "Hello, " + name
 }
 
 func Goodbye() string {
